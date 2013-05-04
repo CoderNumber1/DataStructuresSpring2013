@@ -194,20 +194,20 @@ Writing shortest paths from 14
 14 11 Distance: 800
 14 13 12 Distance: 600
 14 13 Distance: 300
-Writing minimum spanning tree from 5
-5 4 2 1 
-5 4 2 
-5 4 2 3 
-5 4 
-5 6 
-5 7 
-5 7 8 
-5 7 8 9 
-5 7 8 9 10 
-5 7 8 9 12 11 
-5 7 8 9 12 
-5 7 8 9 12 13 
-5 7 8 9 12 13 14 
+Writing minimum spanning tree from 12
+12 9 8 7 5 4 2 1 
+12 9 8 7 5 4 2 
+12 9 8 7 5 4 2 3 
+12 9 8 7 5 4 
+12 9 8 7 5 
+12 9 8 7 5 6 
+12 9 8 7 
+12 9 8 
+12 9 
+12 9 10 
+12 11 
+12 13 
+12 13 14 
 Total Distance: 9400
 Writing minimum spanning tree from 1
 1 2 

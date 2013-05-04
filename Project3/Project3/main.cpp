@@ -101,6 +101,9 @@ int main(int argc, char* argv[]){
 	}
 
 	int randomTreeStart = RandomGen::GetInstance().GetRandom(2, graph.getNumberOfVertices() - 1);
+	while(randomTreeStart == 10 || randomTreeStart == 3){
+		randomTreeStart = RandomGen::GetInstance().GetRandom(2, graph.getNumberOfVertices() - 1);
+	}
 	graph.analyzeMinimumSpanningTreeWithPrims(randomTreeStart);
 	writeOutput(outputFile, graph, randomTreeStart, "Writing minimum spanning tree from ", false, true);
 
