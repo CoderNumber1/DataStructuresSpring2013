@@ -64,6 +64,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="DoubleHashTable.h" />
+    <ClInclude Include="HashTable.h" />
+    <ClInclude Include="QuadHashTable.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DoubleHashTable.cpp" />
+    <ClCompile Include="HashTable.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="QuadHashTable.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Input.txt">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</DeploymentContent>
+    </Text>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
