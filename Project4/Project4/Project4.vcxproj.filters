@@ -42,4 +42,7 @@
   <ItemGroup>
     <Text Include="Input.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="makefile" />
+  </ItemGroup>
 </Project>
